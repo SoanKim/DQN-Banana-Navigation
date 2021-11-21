@@ -1,8 +1,13 @@
-# DQN-Banana-Navigation
-This is provided by the Deep Reinforcement Learning Nanodegree Course of Udacity.
+# DQN: Navigation
+This project was provided by the Deep Reinforcement Learning Nanodegree Course of Udacity.
 
-#Project Overview
-For this project, you will train an agent to navigate (and collect bananas!) in a large, square world.
+# Dependency
+Python 3
+Pytorch
+UnityEnvironment
+
+# Project Overview
+The goal is to train an agent to navigate (and collect bananas!) in a large, square world using deep Q network.
 
 A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of your agent is to collect as many yellow bananas as possible while avoiding blue bananas.
 
