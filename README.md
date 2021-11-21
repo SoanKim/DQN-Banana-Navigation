@@ -2,9 +2,7 @@
 This project was provided by the Deep Reinforcement Learning Nanodegree Course of Udacity.
 
 # Dependency
-Python 3
-Pytorch
-UnityEnvironment
+Python 3; Pytorch; UnityEnvironment
 
 # Project Overview
 The goal is to train an agent to navigate (and collect bananas!) in a large, square world using deep Q network.
