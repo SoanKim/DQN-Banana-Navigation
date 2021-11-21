@@ -1,6 +1,8 @@
 # DQN: Navigation
 This project was provided by the Deep Reinforcement Learning Nanodegree Course of Udacity.
 
+![Alt Text](https://video.udacity-data.com/topher/2018/June/5b1ab4b0_banana/banana.gif)
+
 # Dependency
 Python 3<br/>
 Pytorch<br/>
