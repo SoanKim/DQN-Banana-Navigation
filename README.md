@@ -7,8 +7,8 @@ The project environment is similar to, but not identical to the Banana Collector
 ![Alt Text](https://video.udacity-data.com/topher/2018/June/5b1ab4b0_banana/banana.gif)
 
 # Dependency
-Python 3.6+<br/> [install](https://www.python.org/downloads/)
-Pytorch 1.1+<br/> [install](https://pytorch.org/get-started/locally/)
+Python 3.6+ [install](https://www.python.org/downloads/) <br/> 
+Pytorch 1.1+ [install](https://pytorch.org/get-started/locally/) <br/>
 mlagents 0.27.0+ [install](https://pypi.org/project/mlagents/)<br/>
 
 # The Goal of the Project
