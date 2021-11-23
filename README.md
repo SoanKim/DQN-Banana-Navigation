@@ -1,23 +1,26 @@
 # DQN: Navigation
-This project was provided by the Deep Reinforcement Learning Nanodegree Course of Udacity. The project environment is similar to, but not identical to the Banana Collector environment on the Unity [ML-Agents GitHub page](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Learning-Environment-Examples.md#banana-collector).
+This project was provided by the Deep Reinforcement Learning Nanodegree Course of Udacity.
+
+# Environment
+The project environment is similar to, but not identical to the Banana Collector environment on the Unity [ML-Agents GitHub page](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Learning-Environment-Examples.md#banana-collector).
 
 ![Alt Text](https://video.udacity-data.com/topher/2018/June/5b1ab4b0_banana/banana.gif)
 
 # Dependency
-Python 3.x<br/>
-Pytorch<br/>
-UnityEnvironment<br/>
+Python 3.6+<br/> [install](https://www.python.org/downloads/)
+Pytorch 1.1+<br/> [install](https://pytorch.org/get-started/locally/)
+mlagents 0.27.0+ [install](https://pypi.org/project/mlagents/)<br/>
 
-# Project Overview
-The goal is to train an agent to navigate (and collect bananas!) in a large, square world using deep Q network.
+# The Goal of the Project
+The goal is to train an agent to navigate (and collect bananas!) in a large, square world using deep Q network. 
 
-A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of your agent is to collect as many yellow bananas as possible while avoiding blue bananas.
+A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of the agent is to collect as many yellow bananas as possible while avoiding blue bananas.
 
 The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around the agent's forward direction. Given this information, the agent has to learn how to best select actions. Four discrete actions are available, corresponding to:
 
-0 - move forward.<br/>
-1 - move backward.<br/>
-2 - turn left.<br/>
-3 - turn right.<br/>
+``0`` move forward.<br/>
+``1`` move backward.<br/>
+``2`` turn left.<br/>
+``3`` turn right.<br/>
 The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
 
