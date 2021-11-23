@@ -6,11 +6,6 @@ The project environment is similar to, but not identical to the Banana Collector
 
 ![Alt Text](https://video.udacity-data.com/topher/2018/June/5b1ab4b0_banana/banana.gif)
 
-# Dependency
-Python 3.6+ [install](https://www.python.org/downloads/) <br/> 
-Pytorch 1.1+ [install](https://pytorch.org/get-started/locally/) <br/>
-mlagents 0.27.0+ [install](https://pypi.org/project/mlagents/)<br/>
-
 # The Goal of the Project
 The goal is to train an agent to navigate (and collect bananas!) in a large, square world using deep Q network. 
 
@@ -22,5 +17,19 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 ``1`` - move backward <br/>
 ``2`` - turn left <br/>
 ``3`` - turn right <br/>
+
+# Dependency
+Python 3.6+ [install](https://www.python.org/downloads/) <br/> 
+Pytorch 1.1+ [install](https://pytorch.org/get-started/locally/) <br/>
+ml-agents 0.27.0+ [install](https://pypi.org/project/mlagents/)<br/>
+
+# The Repository Structure
+\ "Navigation.ipynb" includes the environment, agent, model, and DQN functions.
+\ "Report.md" includes hyperparameters.
+\"reward_plot.png" shows the cumulative rewards after training.
+\"checkpoint.pth" contains the training weights of the Q network.
+
+
+
 The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
 
