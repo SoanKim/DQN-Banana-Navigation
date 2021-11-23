@@ -24,10 +24,10 @@ Pytorch 1.1+ [install](https://pytorch.org/get-started/locally/) <br/>
 ml-agents 0.27.0+ [install](https://pypi.org/project/mlagents/)<br/>
 
 # The Repository Structure
-* ``Navigation.ipynb`` includes the environment, agent, model, and DQN functions.<br/>
-* ``Report.md`` includes hyperparameters.<br/>
-* ``reward_plot.png`` shows the cumulative rewards after training.<br/>
-* ``checkpoint.pth`` contains the training weights of the Q network.<br/>
+* ``Navigation.ipynb`` - Includes the environment, agent, model, and DQN functions.<br/>
+* ``Report.md`` - Includes hyperparameters.<br/>
+* ``reward_plot.png`` - Shows the cumulative rewards after training.<br/>
+* ``checkpoint.pth`` - Contains the training weights of the Q network.<br/>
 
 # Ideas for Future Work
 * Hyperparameters would be finetuned.
