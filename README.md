@@ -19,9 +19,23 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 ``3`` - turn right <br/>
 
 # Dependencies
-Python 3.6+ [install](https://www.python.org/downloads/) <br/> 
-Pytorch 1.1+ [install](https://pytorch.org/get-started/locally/) <br/>
-ml-agents 0.27.0+ [install](https://pypi.org/project/mlagents/)<br/>
+Python==3.x+ [install](https://www.python.org/downloads/) <br/> 
+Pytorch==0.4.0+ [install](https://pytorch.org/get-started/locally/) <br/>
+ml-agents==0.27.0+ [install](https://pypi.org/project/mlagents/)<br/>
+tensorflow==1.7.1 <br/>
+Pillow>=4.2.1 <br/>
+matplotlib <br/>
+numpy>=1.11.0 <br/>
+jupyter <br/>
+pytest>=3.2.2 <br/>
+docopt <br/>
+pyyaml <br/>
+protobuf==3.5.2 <br/>
+grpcio==1.11.0 <br/>
+torch==0.4.0
+pandas<br/>
+scipy<br/>
+ipykernel<br/>
 
 # The Repository Structure
 * ``Navigation.ipynb`` - Includes the environment, agent, model, and DQN functions.<br/>
