@@ -9,11 +9,11 @@ The project environment is similar to, but not identical to the Banana Collector
 # The Goal of the Project
 The goal is to train an agent to navigate (and collect bananas!) in a large, square world using deep Q network. 
 
-A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of the agent is to collect as many yellow bananas as possible while avoiding blue bananas.
+A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of the agent is to collect as many yellow bananas as possible while avoiding blue bananas. The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
 
-The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around the agent's forward direction. Given this information, the agent has to learn how to best select actions. Four discrete actions are available, corresponding to:
+The state space has 37 dimensions and contains the agent's velocity, along with the perception of objects forward. Given this information, the agent has to learn how to best select actions. Four discrete actions are available:
 
-``0`` - move forward<br/>
+``0`` - move forward <br/>
 ``1`` - move backward <br/>
 ``2`` - turn left <br/>
 ``3`` - turn right <br/>
@@ -24,12 +24,9 @@ Pytorch 1.1+ [install](https://pytorch.org/get-started/locally/) <br/>
 ml-agents 0.27.0+ [install](https://pypi.org/project/mlagents/)<br/>
 
 # The Repository Structure
-\ "Navigation.ipynb" includes the environment, agent, model, and DQN functions.
-\ "Report.md" includes hyperparameters.
-\"reward_plot.png" shows the cumulative rewards after training.
-\"checkpoint.pth" contains the training weights of the Q network.
-
-
-
-The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
-
+\begin{description}
+  \item[$\cdot$ bla1] "Navigation.ipynb" includes the environment, agent, model, and DQN functions.<br/>
+  \item[$\cdot$ bla1] "Report.md" includes hyperparameters.<br/>
+  \item[$\cdot$ bla1] "reward_plot.png" shows the cumulative rewards after training.<br/>
+  \item[$\cdot$ bla1] "checkpoint.pth" contains the training weights of the Q network.<br/>
+\end{description}
