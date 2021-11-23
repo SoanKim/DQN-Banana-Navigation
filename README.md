@@ -1,5 +1,5 @@
 # DQN: Navigation
-This project was provided by [the Deep Reinforcement Learning Nanodegree Course of Udacity].(https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893)
+This project was provided by [the Deep Reinforcement Learning Nanodegree Course of Udacity.](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893)
 
 # Environment
 The project environment is similar to, but not identical to the Banana Collector environment on the Unity [ML-Agents GitHub page](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Learning-Environment-Examples.md#banana-collector).
