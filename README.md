@@ -18,13 +18,16 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 ``2`` - turn left <br/>
 ``3`` - turn right <br/>
 
-# Dependency
+# Dependencies
 Python 3.6+ [install](https://www.python.org/downloads/) <br/> 
 Pytorch 1.1+ [install](https://pytorch.org/get-started/locally/) <br/>
 ml-agents 0.27.0+ [install](https://pypi.org/project/mlagents/)<br/>
 
 # The Repository Structure
 * ``Navigation.ipynb`` - Includes the environment, agent, model, and DQN functions.<br/>
+
+We will install an amended version of the `python/` folder from the [ML-Agents repository](https://github.com/Unity-Technologies/ml-agents).  It has been edited to include a few additional pip packages needed for the Deep Reinforcement Learning Nanodegree program.<br/>
+
 * ``Report.md`` - Includes hyperparameters.<br/>
 * ``reward_plot.png`` - Shows the cumulative rewards after training.<br/>
 * ``checkpoint.pth`` - Contains the training weights of the Q network.<br/>
