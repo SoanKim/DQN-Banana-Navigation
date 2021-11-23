@@ -30,6 +30,6 @@ ml-agents 0.27.0+ [install](https://pypi.org/project/mlagents/)<br/>
 * ``checkpoint.pth`` - Contains the training weights of the Q network.<br/>
 
 # Ideas for Future Work
-* Hyperparameters would be finetuned.
+* Hyperparameters would be fine-tuned.
 * [Prioritized Experience Replay](https://arxiv.org/abs/1511.05952) would be implemented. 
 * [Dueling Network](https://arxiv.org/pdf/1511.06581.pdf) would be implemented. 
