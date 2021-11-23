@@ -2,7 +2,7 @@
 This project was provided by [the Deep Reinforcement Learning Nanodegree Course of Udacity.](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893) The agent was trained in Deep Q Network. The DQN (Deep Q-Network) algorithm was developed by [DeepMind in 2015.](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf) It was able to solve a wide range of Atari games (some to superhuman level) by combining reinforcement learning and deep neural networks at scale. The algorithm was developed by enhancing a classic RL algorithm called Q-Learning with deep neural networks and a technique called experience replay.
 
 # Environment
-The project environment is similar to, but not identical to the Banana Collector environment on the Unity [ML-Agents GitHub page](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Learning-Environment-Examples.md#banana-collector).
+The project environment is similar to, but not identical to the Banana Collector environment on the Unity. For this project, We will install an amended version of the `python/` folder from the [ML-Agents repository](https://github.com/Unity-Technologies/ml-agents).  It has been edited to include a few additional pip packages needed for the Deep Reinforcement Learning Nanodegree program.<br/>
 
 ![Alt Text](https://video.udacity-data.com/topher/2018/June/5b1ab4b0_banana/banana.gif)
 
@@ -25,9 +25,6 @@ ml-agents 0.27.0+ [install](https://pypi.org/project/mlagents/)<br/>
 
 # The Repository Structure
 * ``Navigation.ipynb`` - Includes the environment, agent, model, and DQN functions.<br/>
-
-We will install an amended version of the `python/` folder from the [ML-Agents repository](https://github.com/Unity-Technologies/ml-agents).  It has been edited to include a few additional pip packages needed for the Deep Reinforcement Learning Nanodegree program.<br/>
-
 * ``Report.md`` - Includes hyperparameters.<br/>
 * ``reward_plot.png`` - Shows the cumulative rewards after training.<br/>
 * ``checkpoint.pth`` - Contains the training weights of the Q network.<br/>
