@@ -16,5 +16,7 @@ eps_decay =0.995        # multiplicative factor (per episode) for decreasing eps
 # The Result Plot
 <img src="https://github.com/SoanKim/DQN-Banana-Navigation/blob/main/reward_plot.png" width="400">
 
-# Future Work
-I still need to implement [prioritized experience replay(PER)](https://arxiv.org/abs/1511.05952) and [dueling RL](https://arxiv.org/pdf/1511.06581.pdf) to compare the performances of the three algorithms.
+# Ideas for Future Work
+* Hyperparameters would be fine-tuned.
+* [Prioritized Experience Replay](https://arxiv.org/abs/1511.05952) would be implemented. 
+* [Dueling Network](https://arxiv.org/pdf/1511.06581.pdf) would be implemented. 
