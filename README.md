@@ -42,8 +42,3 @@ ipykernel<br/>
 * ``Report.md`` - Includes hyperparameters.<br/>
 * ``reward_plot.png`` - Shows the cumulative rewards after training.<br/>
 * ``checkpoint.pth`` - Contains the training weights of the Q network.<br/>
-
-# Ideas for Future Work
-* Hyperparameters would be fine-tuned.
-* [Prioritized Experience Replay](https://arxiv.org/abs/1511.05952) would be implemented. 
-* [Dueling Network](https://arxiv.org/pdf/1511.06581.pdf) would be implemented. 
